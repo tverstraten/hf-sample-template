@@ -1,0 +1,38 @@
+{
+	"name": "@tverstraten/hf-sample-template",
+	"version": "0.9.17",
+	"description": "Harvest Forward Sample Template packaged as a plugin",
+	"author": "tverstraten",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tverstraten/hf-sample-template.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tverstraten/hf-sample-template/issues"
+	},
+	"homepage": "https://github.com/tverstraten/hf-sample-template#readme",
+	"private": false,
+	"license": "UNLICENSED",
+	"main": "dist/src/index.js",
+	"types": "dist/src/index.d.ts",
+	"scripts": {
+		"prepublish": "tsc",
+		"build": "tsc",
+		"copy-templates": "copyfiles -u 1 src/**/*.handlebars dist/src/"
+	},
+	"keywords": [
+		"harvest-forward",
+		"code-generation",
+		"template-metaprogramming",
+		"handlebars"
+	],
+	"dependencies": {
+		"typescript": "^4.5.4"
+	},
+	"devDependencies": {
+		"@types/node": "^14.18.1",
+		"copyfiles": "^2.4.1",
+		"ts-node": "^9.0.0",
+		"ts-node-dev": "^1.1.6"
+	}
+}

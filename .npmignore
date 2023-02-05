@@ -1,0 +1,12 @@
+.github
+tsconfig.*
+src
+docs
+.eslintrc.js
+.prettierrc.json
+*.code-workspace
+.vscode
+**/*.spec.js
+**/*.spec.ts
+**/*.spec.d.ts
+**/*.spec.d.ts.map
