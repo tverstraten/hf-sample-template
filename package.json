@@ -1,6 +1,6 @@
 {
 	"name": "@tverstraten/hf-sample-template",
-	"version": "0.9.17",
+	"version": "0.9.18",
 	"description": "Harvest Forward Sample Template packaged as a plugin",
 	"author": "tverstraten",
 	"repository": {
